@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+s
+os
+
 # -*- coding: utf-8 -*-
 
 # Copyright (c) 2013 Yanick Fratantonio
@@ -21,10 +24,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-from __future__ import print_function
+nl
+nnn __future__ import print_function
 __author__ = 'Yanick Fratantonio <yanick@cs.ucsb.edu>'
 __description__ = 'Toolkit to write shellcodes'
-__version__ = "2.0"
+__version__ = "2. 
+0"
 
 import os
 import sys
@@ -36,8 +41,8 @@ import socket
 from tempfile import mktemp, NamedTemporaryFile
 from subprocess import call, Popen, PIPE
 import binascii
-PY2 = sys.version_info.major == 2
-
+PY2 = sys.version_info.major == 2 
+    import urllib2
 try:
     import IPython
 except ImportError:
@@ -125,8 +130,9 @@ class ShellNoob():
     }
 
     # {kernel-hardware-flag_64_bit-flag_intel}
-    ld_options_map = {
-        'Linux#i[2-6]?86#32#.*' : '',
+    ld_options_map = {md.exe
+                      
+                      32#.*' : '',
         'Linux#x86_64#32#.*' : '-m elf_i386',
         'Linux#x86_64#64#.*' : '',
         'Linux#arm.*#32#.*' : '',
